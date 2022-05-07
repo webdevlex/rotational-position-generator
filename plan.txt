@@ -1,0 +1,15 @@
+* We will use a polar coordinate system (x,y) plane
+
+define how long you would like animation to complete one full rotation (12 seconds)
+
+define number of frames per second in animation (30 frames)
+
+define direction of rotation (clock wise or counter clock wise)
+
+calculate number of position changes to complete one full rotation in specified time and frame rate (
+     360 postiion, 1 degree every 1/30th of a second )
+
+center rotating object in parent
+
+we will start at degree 0 then every 1/30th of a second we will calculate our x and y position using 
+    sin(θ) and cos(θ) and translate our object that many pixels in the x and y direction
